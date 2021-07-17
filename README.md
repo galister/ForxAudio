@@ -1,6 +1,6 @@
 # ForxAudio
 
-ForxAudio is a simple systray utility for Windows 10 that will re-apply your selected audio devices whenever Windows decides to change them (e.g. due to a driver change or plugging something new in).
+ForxAudio is a simple systray utility for Windows 10 that will re-apply your selected audio devices whenever Windows decides to change them (e.g. due to a driver change or plugging something new in). If you are using Voicemeeter, ForxAudio will also trigger a restart on the Voicemeeter audio engine.
 
 Upon first run, simply right-click the tray icon to set your preferred devices. Clicking "Run on Boot" will cause the app to copy itself to `%LocalAppData%\ForxAudio` and link its exe into the user's Startup folder.
 
